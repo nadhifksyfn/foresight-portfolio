@@ -16,7 +16,7 @@ export default function Research() {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif', background: "#f5f5f7", minHeight: "100vh", color: "#1d1d1f" }}>
       <Nav />
 
-      <section style={{ paddingTop: 120, paddingBottom: 60, paddingLeft: "max(24px, calc((100vw - 980px)/2))", paddingRight: "max(24px, calc((100vw - 980px)/2))" }}>
+      <section style={{ paddingTop: 80, paddingBottom: 60, paddingLeft: 16, paddingRight: 16, maxWidth: 980, margin: "0 auto" }}>
         <span style={{ fontSize: 13, fontWeight: 500, color: "#0071e3", letterSpacing: "0.5px", textTransform: "uppercase" }}>Research Library</span>
         <h1 style={{ fontSize: "clamp(32px, 4vw, 52px)", fontWeight: 700, letterSpacing: "-1.5px", margin: "12px 0 8px" }}>Semua Laporan</h1>
         <p style={{ fontSize: 17, color: "#6e6e73", margin: "0 0 48px", maxWidth: 480, lineHeight: 1.6 }}>
