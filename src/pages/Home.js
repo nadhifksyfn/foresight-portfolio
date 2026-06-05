@@ -3,23 +3,6 @@ import { Link } from "react-router-dom";
 import Nav from "../components/Nav";
 import { reports } from "../data/reports";
 
-const agents = [
-  { id: "00", name: "RQ Generator", color: "#0071e3" },
-  { id: "01", name: "Signal Scanner", color: "#34c759" },
-  { id: "02", name: "Synthesizer", color: "#ff9f0a" },
-  { id: "4A", name: "Critic Agent", color: "#ff453a" },
-  { id: "4B", name: "Fact Checker", color: "#bf5af2" },
-  { id: "05", name: "Report Writer", color: "#0071e3" },
-];
-
-const agentDescs = [
-  "Mengubah topik vague menjadi 3-5 research question tajam",
-  "Scrape Google Trends, RSS, Reddit — klasifikasi otomatis",
-  "Deteksi pola lintas sumber dengan confidence scoring",
-  "Tantang logika findings — model berbeda dari Synthesizer",
-  "Verifikasi URL + string matching. Zero LLM. Deterministik.",
-  "Kompilasi Markdown + PDF dengan methodology card otomatis",
-];
 
 export default function Home() {
   const [hovered, setHovered] = useState(null);
