@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Nav from "../components/Nav";
 
 export default function About() {
-  const isMobile = window.innerWidth < 640;
+
 
   return (
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif', background: "#f5f5f7", minHeight: "100vh", color: "#1d1d1f" }}>
