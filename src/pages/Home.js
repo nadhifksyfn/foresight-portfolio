@@ -38,9 +38,9 @@ export default function Home() {
       <section style={{ padding: "0 max(24px, calc((100vw - 980px)/2)) 80px" }}>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 16 }}>
           {[
-            { num: "01", label: "Laporan dipublikasikan", sub: "Beauty · FMCG" },
-            { num: "10", label: "Signals dianalisis", sub: "Google Trends · RSS" },
-            { num: "05", label: "Patterns teridentifikasi", sub: "1 Strong · 4 Emerging" },
+            { num: "02", label: "Laporan dipublikasikan", sub: "Beauty · FMCG" },
+            { num: "25", label: "Signals dianalisis", sub: "Google Trends · Academic · RSS" },
+            { num: "10", label: "Patterns teridentifikasi", sub: "4 Strong · 6 Emerging" },
           ].map(s => (
             <div key={s.num} style={{ background: "white", borderRadius: 20, padding: "28px 24px", border: "0.5px solid rgba(0,0,0,0.08)" }}>
               <div style={{ fontSize: 48, fontWeight: 700, letterSpacing: "-2px", color: "#1d1d1f", lineHeight: 1 }}>{s.num}</div>
@@ -61,7 +61,7 @@ export default function Home() {
           <div key={r.id}
             style={{
               background: "white", borderRadius: 24, padding: "36px 40px",
-              border: "0.5px solid rgba(0,0,0,0.08)", cursor: "pointer",
+              border: "0.5px solid rgba(0,0,0,0.08)", cursor: "pointer", marginBottom: 24,
               transition: "transform 0.2s ease, box-shadow 0.2s ease",
               transform: hovered === r.id ? "translateY(-2px)" : "none",
               boxShadow: hovered === r.id ? "0 12px 40px rgba(0,0,0,0.08)" : "none",
