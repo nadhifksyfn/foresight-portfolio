@@ -40,6 +40,20 @@ export const reports = [
       sources: 2,
       description: "Konsumen 40+ semakin kritis dan cerdas dalam menyaring informasi produk. Mereka menuntut transparansi tentang komposisi bahan, proses produksi, dan sertifikasi. Brand yang mampu berkomunikasi secara jujur dan menghindari klaim berlebihan akan membangun loyalitas jangka panjang di segmen ini.",
     },
+    {
+      pattern: "Dinamika Pasar Kompetitif — Brand Baru vs Pemain Lama",
+      confidence: "EMERGING",
+      confScore: 0.60,
+      sources: 3,
+      description: "Munculnya merek lokal baru seperti Skintific dan Somethinc menunjukkan pasar Indonesia sangat responsif terhadap inovasi. Meski belum jelas sejauh mana segmen 40+ mengadopsi brand baru ini, keberadaan mereka menciptakan tekanan bagi brand mapan untuk terus berinovasi dan memahami preferensi konsumen lintas usia.",
+    },
+    {
+      pattern: "Adaptasi terhadap Lanskap E-commerce yang Teregulasi",
+      confidence: "EMERGING",
+      confScore: 0.50,
+      sources: 2,
+      description: "Evolusi regulasi e-commerce Indonesia akan memengaruhi cara produk kecantikan dipasarkan dan dikonsumsi secara digital. Bagi segmen 40+ yang memiliki tingkat adaptasi digital beragam, platform yang user-friendly, aman, dan informatif menjadi faktor krusial dalam keputusan pembelian online.",
+    },
   ],
   methodology: {
     sources: 15,
