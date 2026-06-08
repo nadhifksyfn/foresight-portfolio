@@ -46,7 +46,7 @@ export const reports = [
     method: "Digital signal analysis — Google Trends ID, Semantic Scholar, CrossRef, RSS Feed media Indonesia",
     period: "Januari – Juni 2026",
     limitations: "Data spesifik untuk segmen 40+ masih terbatas — sebagian besar sinyal bersifat general beauty market. Primary data (survey/wawancara langsung dengan konsumen 40+) belum dilakukan. Urban bias dalam data digital kemungkinan besar terjadi.",
-    primaryData: "Pending — observasi marketplace (Tokopedia/Shopee beauty category untuk segmen mature) belum dilakukan.",
+    primaryData: "Observasi Shopee Indonesia (08 Juni 2026): Pencarian 'skincare anti aging' didominasi merek lokal (Wardah sold 2,5 juta, Glad2Glow, Whitelab, NPURE). Tidak ada brand yang secara eksplisit target wanita 40+ di nama produk. Price range terlaris Rp2.699–Rp80.000. Retinol dan Ceramide muncul di produk terlaris. Semua top produk rating 4.9–5.0.",
   },
   reportMode: "signal",
   criticReview: "Completed — 5 issues acknowledged",
